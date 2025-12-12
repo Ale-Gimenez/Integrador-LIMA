@@ -58,6 +58,7 @@ Criar um e-commerce completo utilizando HTML e CSS, com ênfase em estruturaçã
 
 ##📂 Estrutura do Projeto
 
+```
 Integrador-LIMA/
 │
 ├── index.html
@@ -74,3 +75,4 @@ Integrador-LIMA/
 │ └── style.css
 │
 └── README.md
+```
