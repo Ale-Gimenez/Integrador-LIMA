@@ -61,18 +61,47 @@ Criar um e-commerce completo utilizando HTML e CSS, com ênfase em estruturaçã
 ```
 Integrador-LIMA/
 │
-├── index.html
-├── sobre.html
-├── atendimento.html
-├── carrinho.html
-├── checkout.html
-├── produto.html
-├── produtos.html
+├── /admin
+│ ├── dashboard.html
+│ ├── envios.html
+│ ├── estatistica.html
+│ ├── produtos.html
+│ ├── usuarios.html
 │
-├── /assets
-│ ├── /img
-│ └── /css
-│ └── style.css
+├── /css
+│ ├── style.css
+├── /imagens
+├── /pageProdutos
+│ ├── almofada.html
+│ ├── anel.html
+│ ├── capsula.html
+│ ├── coco.html
+│ ├── crocodilo.html
+│ ├── cubo.html
+│ ├── enter.html
+│ ├── explosion.html
+│ ├── frango.html
+│ ├── magneto.html
+│ ├── nice.html
+│ ├── oreo.html
+│ ├── ovo.html
+│ ├── pop.html
+│ ├── sensoriais.html
+│ ├── squisy.html
+│ ├── tagle.html
+│ ├── tetris.html
+│ ├── travesseiro.html
+│
+├── about.html
+├── cart.html
+├── checkout.html
+├── contact.html
+├── index.html
+├── login.html
+├── products.html
+├── user.html
+│
+│
 │
 └── README.md
 ```
