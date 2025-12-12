@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin - Calm.me</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <figure>
+        <img src="../imagens/cabezaflash.png" alt="Variante Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">Calm.me</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="produtos.html" >Ver produtos</a></li>
+        <li><a href="../login.html" >Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="fundo">
+      <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+    </div>
+
+
+    <div class="bloco-admin">
+      <aside class="sidebar">
+        <nav class="navegation">
+          <a href="dashboard.html"><i class="fas fa-home"></i> Visão Geral</a>
+          <a href="produtos.html"><i class="fas fa-box"></i> Produtos</a>
+          <a href="envios.html"><i class="fas fa-truck"></i> Pedidos</a>
+          <a href="usuarios.html"><i class="fas fa-users"></i> Usuários</a>
+          <a href="estatistica.html"><i class="fas fa-chart-line"></i> Relatórios</a>
+        </nav>
+      </aside>
+
+      <section class="vendas">
+        <h2>Visão Geral</h2>
+
+        <div class="status">
+          <article class="bloco-vendas">
+            <div class="icone icone-roxo"><i class="fas fa-dollar-sign"></i></div>
+            <div class="info">
+              <h3>Vendas Hoje</h3>
+              <p>R$ 1.250,00</p>
+            </div>
+          </article>
+
+          <article class="bloco-vendas">
+            <div class="icone icone-azu"><i class="fas fa-shopping-bag"></i></div>
+            <div class="info">
+              <h3>Novos Pedidos</h3>
+              <p>12</p>
+            </div>
+          </article>
+
+          <article class="bloco-vendas">
+            <div class="icone icone-verd"><i class="fas fa-user-plus"></i></div>
+            <div class="info">
+              <h3>Novos Clientes</h3>
+              <p>5</p>
+            </div>
+          </article>
+
+          <article class="bloco-vendas">
+            <div class="icone icone-verm"><i class="fas fa-exclamation-triangle"></i></div>
+            <div class="info">
+              <h3>Estoque Baixo</h3>
+              <p>3 Itens</p>
+            </div>
+          </article>
+        </div>
+
+        <h3>Últimos Pedidos</h3>
+        <div class="responsiva">
+          <table class="admin-venda">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Data</th>
+                <th>Valor</th>
+                <th>Status</th>
+                <th>Ação</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#12345</td>
+                <td>Alejandra Michelle</td>
+                <td>11/12/2025</td>
+                <td>R$ 54,80</td>
+                <td><span class="estilo">Pendente</span></td>
+                <td><a href="envios.html" class="mini edit"><i class="fas fa-eye"></i></a></td>
+              </tr>
+              <tr>
+                <td>#12344</td>
+                <td>João da Silva</td>
+                <td>10/12/2025</td>
+                <td>R$ 89,90</td>
+                <td><span class="estilo sucesso">Entregue</span></td>
+                <td><a href="envios.html" class="mini edit"><i class="fas fa-eye"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Calm.me - Painel Administrativo</p>
+  </footer>
+
+</body>
+</html>

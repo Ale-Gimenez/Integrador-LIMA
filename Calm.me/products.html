@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de produtos Calm.me - Desestresse e Família">
+  <title>Produtos - Calm.me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <figure>
+        <img src="./imagens/logoc.png" alt="Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">alm.me</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Produtos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Atendimento</a></li>
+        <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+        <li><a href="user.html"><i class='fas fa-user'></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="fundo">
+      <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+    </div>
+    <section class="controle">
+      <div class="cabecalho-produtos">
+        <h2>Encontre sua Calma</h2>
+        <p>Explore nossa coleção pensada para o seu bem-estar.</p>
+      </div>
+
+      <div class="ferramentas">
+        <div class="busca">
+          <input type="text" id="campo-busca" placeholder="O que você procura hoje?">
+          <button class="pesquisa"><i class="fas fa-search"></i></button>
+        </div>
+
+        <nav class="filtros">
+          <button class="filtro ativo" data-filtro="todos">Todos</button>
+          <button class="filtro" data-filtro="desestresse"><i class="fas fa-hand-holding-heart"></i> Desestresse</button>
+          <button class="filtro" data-filtro="familia"><i class="fas fa-home"></i> Família</button>
+        </nav>
+      </div>
+    </section>
+
+    <section aria-label="Lista de produtos">
+      <ul class="tabela" id="lista-produtos">
+        
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/almofada.jpg" alt="Almofada roxa"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Almofada</h3>
+              <p class="preco">R$ 19,90</p>
+              <a href="pageProdutos/almofada.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/cubo.jpg" alt="Cubo fidget"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Cubo Fidget</h3>
+              <p class="preco">R$ 34,90</p>
+              <a href="pageProdutos/cubo.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/crocodilo.jpg" alt="Jogo Crocodilo"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Crocodilo</h3>
+              <p class="preco">R$ 29,90</p>
+              <a href="pageProdutos/crocodilo.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/enterGG.jpg" alt="Botão Enter Gigante"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Enter GG</h3>
+              <p class="preco">R$ 45,90</p>
+              <a href="pageProdutos/enter.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/ovo.jpg" alt="Slime Ovo"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Ovo de Slime</h3>
+              <p class="preco">R$ 24,90</p>
+              <a href="pageProdutos/ovo.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/capsula.jpg" alt="Cápsulas de emoção"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Capsula</h3>
+              <p class="preco">R$ 22,90</p>
+              <a href="pageProdutos/capsula.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/tetris.jpg" alt="Jogo Tetris de Madeira"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Tetris</h3>
+              <p class="preco">R$ 39,90</p>
+              <a href="pageProdutos/tetris.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/travesseiro.jpg" alt="Travesseiro Conforto"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Travesseiro</h3>
+              <p class="preco">R$ 54,90</p>
+              <a href="pageProdutos/travesseiro.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/cocô.jpg" alt="Squishy formato cocô"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Cocô</h3>
+              <p class="preco">R$ 69,90</p>
+              <a href="pageProdutos/coco.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/frango.jpg" alt="Frango de borracha"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Frango</h3>
+              <p class="preco">R$ 32,90</p>
+              <a href="pageProdutos/frango.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/squishy.jpg" alt="Bolinha squishy"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Squishy Ball</h3>
+              <p class="preco">R$ 25,90</p>
+              <a href="pageProdutos/squishy.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/pop.jpg" alt="Pop It Eletrônico"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Pop It Eletrônico</h3>
+              <p class="preco">R$ 30,90</p>
+              <a href="pageProdutos/pop.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/tangle.webp" alt="Tangle Toy"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Tangle Fidget</h3>
+              <p class="preco">R$ 100,90</p>
+              <a href="pageProdutos/tangle.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/anel.jpg" alt="Anel Magnético"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Anel Háptico</h3>
+              <p class="preco">R$ 547,90</p>
+              <a href="pageProdutos/anel.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/sensoriais.jpg" alt="Bolas Magnéticas"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Magnetic Balls</h3>
+              <p class="preco">R$ 120,90</p>
+              <a href="pageProdutos/sensoriais.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="familia">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/massageador.jpg" alt="Massageador"/>
+              <span class="tag">Família</span>
+            </figure>
+            <div class="info-produto">
+              <h3>Massageador</h3>
+              <p class="preco">R$ 40,90</p>
+              <a href="pageProdutos/magneto.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/magneto.jpg" alt="Imã"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Magnetic Toy</h3>
+              <p class="preco">R$ 39,90</p>
+              <a href="pageProdutos/magneto.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/nice.jpg" alt="Cubo de gelo falso"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Nice Cube</h3>
+              <p class="preco">R$ 26,90</p>
+              <a href="pageProdutos/nice.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/explosion.webp" alt="Explosive Toy"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Explosive Toy</h3>
+              <p class="preco">R$ 41,90</p>
+              <a href="pageProdutos/explosion.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+        <li class="produto" data-tipo="desestresse">
+          <article class="cartao-produto">
+            <figure class="capa-produto">
+              <img src="imagens/oreo.jpg" alt="Oreo Squishy"/>
+            </figure>
+            <div class="info-produto">
+              <h3>Bolacha Squishy</h3>
+              <p class="preco">R$ 20,90</p>
+              <a href="pageProdutos/oreo.html" class="btn-comprar">Ver Detalhes</a>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+      
+      <div id="msg-vazio" class="msg-oculta">
+        <h3>Poxa, não encontramos nada com esse nome :(</h3>
+        <p>Tente buscar por outro termo.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Calm.me - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perfil do Usuário - Calm.me">
+  <title>Meu Perfil - Calm.me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="fundo">
+    <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+  </div>
+
+  <header class="header">
+    <div class="logo">
+      <figure>
+        <img src="./imagens/logoc.png" alt="Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">alm.me</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Produtos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Atendimento</a></li>
+        <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+        <li><a href="user.html" class="active"><i class='fas fa-user'></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grade-usuario">
+    
+    <aside class="lateral-usuario">
+      <div class="perfil">
+        <div class="avatar">
+          <figure>
+            <img src="https://ui-avatars.com/api/?name=Alejandra+M&background=733cf5&color=fff&size=150" alt="Foto de Alejandra" class="foto"/>
+          <button class="camera" aria-label="Editar foto">
+            <i class="fas fa-camera"></i>
+          </button>
+          </figure>
+        </div>
+        
+        <h2>Alejandra</h2>
+        <p class="email">ale.mich@gmail.com</p>
+        <span class="vip">Cliente VIP</span>
+
+        <nav class="menu">
+          <a href="#dados" class="objeto ativado"><i class="fas fa-user"></i> Meus Dados</a>
+          <a href="#enderecos" class="objeto"><i class="fas fa-map-marker-alt"></i> Endereços</a>
+          <a href="#pedidos" class="objeto"><i class="fas fa-box"></i> Pedidos</a>
+          <hr>
+          <a href="login.html" class="objeto sair"><i class="fas fa-sign-out-alt"></i> Sair</a>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="conteudo">
+      
+      <section id="dados" class="painel">
+        <header class="topo">
+          <h3>Informações Pessoais</h3>
+          <button class="botao-simples"><i class="fas fa-pen"></i> Editar</button>
+        </header>
+        
+        <dl class="lista-dados">
+          <div class="dado">
+            <dt>Nome Completo</dt>
+            <dd>Alejandra Michelle Giménez Luján</dd>
+          </div>
+          <div class="dado">
+            <dt>Email</dt>
+            <dd>ale.mich@gmail.com</dd>
+          </div>
+          <div class="dado">
+            <dt>Telefone</dt>
+            <dd>(19) 98765-4321</dd>
+          </div>
+          <div class="dado">
+            <dt>CPF</dt>
+            <dd>***.456.789-**</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="enderecos" class="painel">
+        <header class="topo">
+          <h3>Meus Endereços</h3>
+          <button class="botao-simples">Novo</button>
+        </header>
+
+        <div class="lista-cards">
+          <article class="cartao destaque">
+            <span class="etiqueta">Principal</span>
+            <h4>Residencial</h4>
+            <address>
+              20 de marzo, 123<br>
+              Jardin del fragante - Bolivar<br>
+              CEP: 01234-567
+            </address>
+            <div class="acoes">
+              <a href="#">Editar</a>
+              <a href="#">Excluir</a>
+            </div>
+          </article>
+
+          <article class="cartao">
+            <h4>Trabalho</h4>
+            <address>
+              Av. Paulista, 1000<br>
+              Bela Vista - São Paulo<br>
+              CEP: 01310-100
+            </address>
+            <div class="acoes">
+              <a href="#">Tornar Principal</a>
+              <a href="#">Editar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="pedidos" class="painel">
+        <header class="topo">
+          <h3>Histórico de Pedidos</h3>
+        </header>
+        
+        <div class="lista-pedidos">
+          <article class="linha-pedido">
+            <div class="detalhe">
+              <h4>Pedido #12345</h4>
+              <time datetime="2025-11-15">15/11/2025</time>
+            </div>
+            <span class="status verde">Entregue</span>
+            <p class="valor">R$ 54,80</p>
+            <button class="botao-mini">Ver</button>
+          </article>
+
+          <article class="linha-pedido">
+            <div class="detalhe">
+              <h4>Pedido #12344</h4>
+              <time datetime="2025-12-01">01/12/2025</time>
+            </div>
+            <span class="status laranja">Em trânsito</span>
+            <p class="valor">R$ 89,70</p>
+            <button class="botao-mini">Rastrear</button>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Calm.me - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>

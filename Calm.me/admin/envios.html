@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos - Admin Calm.me</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+      <figure>
+        <img src="../imagens/cabezaflash.png" alt="Variante Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">Calm.me | Admin</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="produtos.html" >Ver produtos</a></li>
+        <li><a href="../login.html" >Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="fundo">
+      <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+    </div>
+
+
+    <div class="bloco-admin">
+      <aside class="sidebar">
+        <nav class="navegation">
+          <a href="dashboard.html"><i class="fas fa-home"></i> Visão Geral</a>
+          <a href="produtos.html"><i class="fas fa-box"></i> Produtos</a>
+          <a href="envios.html"><i class="fas fa-truck"></i> Pedidos</a>
+          <a href="usuarios.html"><i class="fas fa-users"></i> Usuários</a>
+          <a href="estatistica.html"><i class="fas fa-chart-line"></i> Relatórios</a>
+        </nav>
+      </aside>
+
+      <section class="vendas">
+        <h2>Gerenciamento de Pedidos</h2>
+
+        <div class="formulario formulario2">
+            <label><i class="fas fa-filter"></i> Filtrar por Status:</label>
+            <div class="filtro">
+                <button class="btn third">Todos</button>
+                <button class="btn primary">Pendentes</button>
+                <button class="btn primary">Enviados</button>
+            </div>
+        </div>
+
+        <div class="responsiva">
+          <table class="admin-venda">
+            <thead>
+              <tr>
+                <th>Pedido</th>
+                <th>Cliente</th>
+                <th>Pagamento</th>
+                <th>Total</th>
+                <th>Status Atual</th>
+                <th>Atualizar Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>#12345</strong><br><small>11/12/2025</small></td>
+                <td>Alejandra Michelle<br><small>Jardim del Fragante</small></td>
+                <td>Pix</td>
+                <td>R$ 54,80</td>
+                <td><span class="estilo pendente">Pendente</span></td>
+                <td>
+                    <select class="pedidos">
+                        <option selected>Pendente</option>
+                        <option>Em Separação</option>
+                        <option>Enviado</option>
+                        <option>Entregue</option>
+                    </select>
+                    <button class="mini check"><i class="fas fa-check"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>#12340</strong><br><small>09/12/2025</small></td>
+                <td>Carlos Almeida<br><small>São Paulo, SP</small></td>
+                <td>Cartão</td>
+                <td>R$ 120,00</td>
+                <td><span class="estilo sucesso">Enviado</span></td>
+                <td>
+                    <select class="pedidos">
+                        <option>Pendente</option>
+                        <option selected>Enviado</option>
+                        <option>Entregue</option>
+                    </select>
+                    <button class="mini check"><i class="fas fa-check"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+    <footer class="footer">
+    <p>&copy; 2025 Calm.me - Painel Administrativo</p>
+  </footer>
+</body>
+</html>

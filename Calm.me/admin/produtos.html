@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Admin Calm.me</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <figure>
+        <img src="../imagens/cabezaflash.png" alt="Variante Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">Calm.me | Admin</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="produtos.html" >Ver produtos</a></li>
+        <li><a href="../login.html" >Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<main>
+    <div class="fundo">
+      <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+    </div>
+
+
+    <div class="bloco-admin">
+      <aside class="sidebar">
+        <nav class="navegation">
+          <a href="dashboard.html"><i class="fas fa-home"></i> Visão Geral</a>
+          <a href="produtos.html"><i class="fas fa-box"></i> Produtos</a>
+          <a href="envios.html"><i class="fas fa-truck"></i> Pedidos</a>
+          <a href="usuarios.html"><i class="fas fa-users"></i> Usuários</a>
+          <a href="estatistica.html"><i class="fas fa-chart-line"></i> Relatórios</a>
+        </nav>
+      </aside>
+
+      <section class="vendas">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+            <h2>Gerenciar Produtos</h2>
+            <button class="btn primary"><i class="fas fa-plus"></i> Novo Produto</button>
+        </div>
+
+        <div class="responsiva">
+          <table class="admin-venda">
+            <thead>
+              <tr>
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Estoque</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <figure>
+                    <img src="../imagens/travesseiro.jpg" alt="Travesseiro"></td>
+                  </figure>
+                <td>Travesseiro Calmante</td>
+                <td>R$ 54,90</td>
+                <td>150 un</td>
+                <td class="acao">
+                  <button class="mini edit"><i class="fas fa-pen"></i></button>
+                  <button class="mini delete"><i class="fas fa-trash"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <figure>
+                    <img src="../imagens/cubo.jpg" alt="Cubo"></td>
+                  </figure>
+                <td>Cubo Fidget</td>
+                <td>R$ 34,90</td>
+                <td><span style="color: red; font-weight: bold;">05 un</span></td>
+                <td class="acaos">
+                  <button class="mini edit"><i class="fas fa-pen"></i></button>
+                  <button class="mini delete"><i class="fas fa-trash"></i></button>
+                </td>
+              </tr>
+               <tr>
+                <td>
+                  <figure>
+                    <img src="../imagens/almofada.jpg" alt="Almofada"></td>
+                  </figure>
+                <td>Almofada Anti-Stress</td>
+                <td>R$ 19,90</td>
+                <td>320 un</td>
+                <td class="acaos">
+                  <button class="mini edit"><i class="fas fa-pen"></i></button>
+                  <button class="mini delete"><i class="fas fa-trash"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Calm.me - Painel Administrativo</p>
+  </footer>
+</body>
+</html>

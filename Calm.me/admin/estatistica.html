@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatórios - Admin Calm.me</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+      <figure>
+        <img src="../imagens/cabezaflash.png" alt="Variante Logo Calm.me" class="flashlogo1"/>
+      </figure>
+      <h1 class="calm">Calm.me | Admin</h1>
+    </div>
+    <nav>
+      <ul class="navega">
+        <li><a href="produtos.html" >Ver produtos</a></li>
+        <li><a href="../login.html" >Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<main>
+    <div class="fundo">
+      <div class="bolinhas">
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+          <span class="i11"></span>
+          <span class="i17"></span>
+          <span class="i25"></span>
+          <span class="i14"></span>
+          <span class="i9"></span>
+          <span class="i2"></span>
+          <span class="i28"></span>
+          <span class="i16"></span>
+          <span class="i22"></span>
+          <span class="i4"></span>
+          <span class="i13"></span>
+          <span class="i27"></span>
+          <span class="i17"></span>
+          <span class="i9"></span>
+          <span class="i15"></span>
+          <span class="i24"></span>
+          <span class="i12"></span>
+          <span class="i26"></span>
+      </div>
+    </div>
+
+
+    <div class="bloco-admin">
+      <aside class="sidebar">
+        <nav class="navegation">
+          <a href="dashboard.html"><i class="fas fa-home"></i> Visão Geral</a>
+          <a href="produtos.html"><i class="fas fa-box"></i> Produtos</a>
+          <a href="envios.html"><i class="fas fa-truck"></i> Pedidos</a>
+          <a href="usuarios.html"><i class="fas fa-users"></i> Usuários</a>
+          <a href="estatistica.html"><i class="fas fa-chart-line"></i> Relatórios</a>
+        </nav>
+      </aside>
+
+      <section class="conteudo">
+        <h2>Relatórios de Desempenho</h2>
+
+        <form class="filtro">
+          <div class="campo">
+            <label for="inicio">Data Início</label>
+            <input type="date" id="inicio" name="inicio" value="2025-12-01">
+          </div>
+          <div class="campo">
+            <label for="fim">Data Fim</label>
+            <input type="date" id="fim" name="fim" value="2025-12-31">
+          </div>
+          <button type="button" class="btn primary">Filtrar Dados</button>
+        </form>
+
+        <article class="painel">
+          <div class="painel-topo">
+            <h3>Vendas da Semana</h3>
+            <span class="badge sucesso">+15% vs semana anterior</span>
+          </div>
+          
+          <div class="grafico">
+            <div class="coluna">
+              <div class="barra seg" data-valor="R$ 400"></div>
+              <span class="legenda">Seg</span>
+            </div>
+            
+            <div class="coluna">
+              <div class="barra ter" data-valor="R$ 600"></div>
+              <span class="legenda">Ter</span>
+            </div>
+
+            <div class="coluna">
+              <div class="barra qua" data-valor="R$ 350"></div>
+              <span class="legenda">Qua</span>
+            </div>
+
+            <div class="coluna">
+              <div class="barra qui" data-valor="R$ 500"></div>
+              <span class="legenda">Qui</span>
+            </div>
+
+            <div class="coluna">
+              <div class="barra destaque sex" data-valor="R$ 900"></div>
+              <span class="legenda">Sex</span>
+            </div>
+
+            <div class="coluna">
+              <div class="barra sab" data-valor="R$ 750"></div>
+              <span class="legenda">Sáb</span>
+            </div>
+
+            <div class="coluna">
+              <div class="barra dom" data-valor="R$ 200"></div>
+              <span class="legenda">Dom</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="relatorio-es">
+          <article class="painel">
+            <h3>Mais Vendidos</h3>
+            <ul class="lista">
+              <li class="item">
+                <div class="info">
+                  <span class="rank">1</span>
+                  <figure>
+                   <img src="../imagens/travesseiro.jpg" alt="Travesseiro" class= "travs"/> 
+                  </figure>
+                  <div>
+                    <strong>Travesseiro</strong>
+                    <br><small>150 vendas</small>
+                  </div>
+                </div>
+                <div class="progresso-fundo">
+                  <div class="progresso prog1"></div>
+                </div>
+              </li>
+
+              <li class="item">
+                <div class="info">
+                  <span class="rank">2</span>
+                  <figure>
+                    <img src="../imagens/cubo.jpg" alt="Cubo" class="travs"/>
+                  </figure>
+                  <div>
+                    <strong>Cubo Fidget</strong>
+                    <br><small>120 vendas</small>
+                  </div>
+                </div>
+                <div class="progresso-fundo">
+                  <div class="progresso prog2"></div>
+                </div>
+              </li>
+            </ul>
+          </article>
+
+          <article class="painel">
+            <h3>Finanças</h3>
+            <table class="tabela-admin">
+              <tbody>
+                <tr>
+                  <td>Entradas</td>
+                  <td class="entra">R$ 15.400,00</td>
+                </tr>
+                <tr>
+                  <td>Saídas</td>
+                  <td class="sai">R$ 7.000,00</td>
+                </tr>
+                <tr class="paini">
+                  <td><strong>Lucro</strong></td>
+                  <td class="lucro">R$ 8.400,00</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Calm.me - Painel Administrativo</p>
+  </footer>
+
+</body>
+</html>
